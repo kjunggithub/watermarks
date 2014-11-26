@@ -1,17 +1,17 @@
 # Watermarks
-A shell script to add watermarks to images
+A shell script to add watermarks to images.
 
 ## Dependencies
-**Watermarks** requires `ImageMagick` and specifically `composite` to run.
+**Watermarks** requires `ImageMagick` and specifically, `composite` to run.
 
 ## Instructions
 1. clone the repo.
 
 `git clone git@github.com:kjunggithub/watermarks.git && cd watermarks`
 
-2. Replace `watermarks.png` with an transparent image to be used as the watermark on all images. Please keep the same file name.
+2. Replace `watermarks.png` with an transparent image (png) to be used as the watermark.
 
-3. Place all images that needs the watermarks to be applied onto into the `input` folder.
+3. Place all images that needs the watermarks into the `input` folder.
 
 4. Run the shell script.
 
@@ -20,7 +20,7 @@ A shell script to add watermarks to images
 5. Check `output` folder for joy!
 
 ## Parameters
-An example of the `composite` being run in the shell script takes in several parameters.
+The `composite` tool in the script uses several parameters:
 
 Parameter | Details
 --- | ---
